@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
     libonig-dev \
     libxml2-dev \
     zip \
+    nodejs \
+    npm \
     unzip
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
