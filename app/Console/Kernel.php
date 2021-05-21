@@ -25,7 +25,8 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->call('App\Services\CurrencyRatesService@store')
-            ->hourly();
+            ->hourly()
+            ->timezone(env('APP_TIMEZONE', 'UTC'));
     }
 
     /**
