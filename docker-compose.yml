@@ -51,4 +51,4 @@ services:
       dockerfile: ./docker/cron/Dockerfile
     container_name: cron
     volumes:
-      - ./src:/var/www/app
+      - ./:/var/www
