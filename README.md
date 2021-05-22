@@ -3,9 +3,9 @@
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 #### Setup Docker
-1.1 Create copy .env.example file to .env and setup your configuration
-1.2 Add your api key to CURRENCY_API_KEY from https://currate.ru/
-1.3 * if you're using docker-compose change DB_HOST to msql container_name (db)
+1.1 Create copy .env.example file to .env and setup your configuration  
+1.2 Add your api key to CURRENCY_API_KEY from https://currate.ru/  
+1.3 * if you're using docker-compose change DB_HOST to msql container_name (db)  
 ```
 cp .env.example .env
 ```
