@@ -11,7 +11,7 @@ app (laravel app)
 db (mysql) 
 ```
 
-### Commands
+#### Commands
 1.1 Create copy .env.example file to .env and setup your configuration  
 1.2 Add your api key to CURRENCY_API_KEY from https://currate.ru/  
 1.3 * if you're using docker-compose change DB_HOST to msql container_name (db)  
